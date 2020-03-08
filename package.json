@@ -1,0 +1,22 @@
+{
+  "name": "mydrupalbox-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-cli": "^2.9.6",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("/vue-test/src/assets/fonts/Nexa Bold.otf") format("otf");
+  font-family: "Nexa Light";
+  src: url("/vue-test/src/assets/fonts/Nexa Light.otf") format("otf"); }
+
+body {
+  font: 100% Nexa, Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  background-color: #f3f4f8;
+  margin: 0; }
+
+.container-fluid {
+  margin-top: 0px !important;
+  padding: 0px; }
+
+header {
+  min-height: 100px;
+  height: 726px;
+  position: relative; }
+  header:after {
+    background-image: linear-gradient(to bottom, #0d022a, rgba(0, 0, 0, 0));
+    content: ' ';
+    display: block;
+    height: 92px;
+    left: 0;
+    top: -5px;
+    width: 100%;
+    position: absolute; }
+
+.header-image {
+  background: url(/static/img/header-image.12aa4b6.png) center top no-repeat;
+  width: 100%;
+  height: 823px; }
+
+.header-wave {
+  background: url(/static/img/wave-divider.6ea2dfa.png) top no-repeat;
+  bottom: -64px;
+  height: 100%;
+  max-height: 450px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
+
+.header-gradient {
+  background: linear-gradient(to top, #0d022a, rgba(0, 0, 0, 0));
+  bottom: 98px;
+  height: 100%;
+  max-height: 450px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 0; }
+
+title {
+  bottom: calc(50px + 2vw);
+  font-family: "Nexa Bold", Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  text-transform: uppercase; }
+
+.subtitle {
+  font-size: 35px;
+  font-weight: 700; }
+
+section {
+  min-height: 350px; }
+
+a.olympic-channel-promo {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: "Nexa Heavy",Nexa,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0 8px;
+  padding: 16px;
+  text-align: center;
+  width: 191px; }
+
+a.olympic-channel-promo:hover {
+  background-color: #fff;
+  color: black; }
+
+section.promoVideo {
+  margin: 0px auto 35px;
+  position: relative;
+  width: 905px; }
+
+section.readMore {
+  height: 364px;
+  background-color: #fff; }
+
+section.moreCoverage {
+  background: url("assets/images/olympic-channel-promo-background@2x.jpg"); }
+
+.card {
+  border-radius: 10px;
+  opacity: 85%;
+  width: 514px;
+  height: 235px;
+  background-color: #fff; }
+  .card.promoVideoCard {
+    background-image: url("");
+    position: absolute;
+    border-radius: 10px;
+    opacity: 85%;
+    width: 514px;
+    height: 235px;
+    background-color: #fff;
+    z-index: 1;
+    top: 103px;
+    right: 0; }
+
+.olympicLogo {
+  background-color: #4E82E5;
+  border-radius: 50%;
+  margin: auto;
+  height: 145px;
+  width: 145px; }
