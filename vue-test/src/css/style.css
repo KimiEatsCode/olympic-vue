@@ -78,35 +78,10 @@ title {
 section {
   min-height: 470px; }
 
-a.olympic-channel-promo {
-  border: 1px solid #fff;
-  border-radius: 5px;
-  box-sizing: border-box;
-  color: #fff;
-  display: inline-block;
-  font-family: "Nexa Heavy",Nexa,Arial,sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  margin: 0 8px;
-  padding: 16px;
-  text-align: center;
-  width: 191px; }
-
-a.olympic-channel-promo:hover {
-  background-color: #fff;
-  color: black; }
-
 section.promoVideo {
   margin: 0px auto 35px;
   position: relative;
   width: 905px; }
-
-section.readMore {
-  height: 364px;
-  background-color: #fff; }
-
-section.moreCoverage {
-  background: url("assets/images/olympic-channel-promo-background@2x.jpg"); }
 
 .card:nth-child(1) {
   border-radius: 10px;
@@ -133,9 +108,6 @@ section.moreCoverage {
   position: absolute;
   z-index: 2; }
 
-.olympicLogo {
-  background-color: #4E82E5;
-  border-radius: 50%;
-  margin: auto;
-  height: 145px;
-  width: 145px; }
+.purpleRule {
+  border: 2px solid #6540EC;
+  width: 320px; }

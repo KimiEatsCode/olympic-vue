@@ -24,13 +24,6 @@ import navLogo from '@/components/navLogo'
 
 export default {
   name: 'app',
-
-  data () {
-    return {
-
-      decoration: 'underline'
-    }
-  },
   components: { navLogo, home }
 }
 </script>
