@@ -1,30 +1,12 @@
 <template>
   <div id="app">
 <div class="container-fluid">
-<!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-       <router-link to="/artist">Artist</router-link>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
-</nav> -->
 
-<artist></artist>
+<navLogo></navLogo>
+<home></home>
 
 </div>
-  <footer>Footer</footer>
+  <footer></footer>
 
   </div>
 
@@ -37,18 +19,18 @@
 
 <script>
 
-import artist from '@/components/artist'
+import home from '@/components/home'
+import navLogo from '@/components/navLogo'
 
 export default {
   name: 'app',
 
   data () {
     return {
-      image:
-       'assets/images/wave-divider.png',
+
       decoration: 'underline'
     }
   },
-  components: { artist }
+  components: { navLogo, home }
 }
 </script>

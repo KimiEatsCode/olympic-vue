@@ -1,15 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Artist from '@/components/Artist'
+import home from '@/components/home'
+import navLogo from '@/components/navLogo'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/artist',
-      name: 'Artist',
-      component: Artist
+      path: '/',
+      name: 'home',
+      component: (home, navLogo)
+    },
+    {
+      path: '/home',
+      name: 'home2',
+      component: (home, navLogo)
     }
   ]
 })

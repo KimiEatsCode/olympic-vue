@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 147 147">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.797;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Subtraction_6);
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_6);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.132" x2="0.545" y2="0.708" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7435d6"/>
+      <stop offset="1" stop-color="#5d46f8"/>
+    </linearGradient>
+    <filter id="Ellipse_6" x="0" y="0" width="147" height="147" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#2c2462"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_6" x="31.302" y="36.4" width="90.326" height="94.804" filterUnits="userSpaceOnUse">
+      <feOffset dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-2"/>
+      <feFlood flood-opacity="0.043"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Play-Btn-Lrg" transform="translate(-329.215 -1285.215)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 329.21, 1285.21)">
+      <circle id="Ellipse_6-2" data-name="Ellipse 6" class="cls-1" cx="37.5" cy="37.5" r="37.5" transform="translate(36 24)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 329.21, 1285.21)">
+      <path id="Subtraction_6-2" data-name="Subtraction 6" class="cls-2" d="M0,22.8V0L18.326,11.4,0,22.8Z" transform="translate(67.3 50.4)"/>
+    </g>
+  </g>
+</svg>
