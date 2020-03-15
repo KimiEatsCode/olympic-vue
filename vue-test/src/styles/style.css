@@ -20,7 +20,7 @@ body {
   z-index: 1;
   width: 200px;
   height: 200px;
-  background: url(/static/img/nbc-tokyo-2020-main-logo.04cc9e9.png) top no-repeat;
+  background: url("/assets/images/nbc-tokyo-2020-main-logo.04cc9e9.png") top no-repeat;
   left: 20px;
   top: 20px; }
 
@@ -39,7 +39,7 @@ header {
     position: absolute; }
 
 .header-image {
-  background: url(/static/img/header-image.12aa4b6.png) center top no-repeat;
+  background: url("/assets/images/header-image.png") center top no-repeat;
   width: 100%;
   height: 823px; }
 

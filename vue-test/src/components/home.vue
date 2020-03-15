@@ -1,8 +1,8 @@
 <template>
-
 <div id="home">
+
 <header>
-  <div class="header-wave"></div>
+<div class="header-wave"></div>
 <div class="header-image"></div>
 
 <title>GAMES OF THE XXXII OLYMPIAD
@@ -47,7 +47,7 @@ import '../htmlTagsFilter.js'
 export default {
   name: 'home',
   promoText: [],
-  // initializing data to be load into the component
+
   data () {
     return {
       test: 'test',
@@ -55,7 +55,6 @@ export default {
     }
   },
   methods: {
-    // sending request to get promise from the hitting URL
     getPromoText: function () {
       this.$http.get('http://192.168.33.10/promoPath').then(
         response => {

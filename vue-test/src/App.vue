@@ -14,7 +14,7 @@
 
 <style>
 
-@import '/css/style.css';
+@import '/styles/style.css';
 </style>
 
 <script>
