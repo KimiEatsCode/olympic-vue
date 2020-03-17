@@ -16,27 +16,22 @@
 
   <section class="promoVideo">
   <div class="row">
-    <div class="card">
 
-  <div class="card-body">
-
-  </div>
+  <div class="card">
+  <div class="card-body"></div>
 </div>
+
 <div class="card">
   <div class="card-body" v-for="promo of promoText" :key="promo.id">
   <h2> {{ promo.test | striphtml}} </h2>
-    <hr class="purpleRule"/>
-     {{ promo.body | striphtml}}
+    <hr class="purpleRule ruleLeft"/>
+    <p>{{ promo.body | striphtml}}</p>
   </div>
 </div>
   </div>
    </section>
 
-   <section class="readMore">
-      <div class="row">
-
-      </div>
-   </section>
+   <section></section>
 
 </div>
 </template>
@@ -50,7 +45,6 @@ export default {
 
   data () {
     return {
-      test: 'test',
       promoText: this.getPromoText()
     }
   },
