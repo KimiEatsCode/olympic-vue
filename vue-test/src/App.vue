@@ -4,7 +4,7 @@
 
 <navLogo></navLogo>
 <home></home>
-
+<featured></featured>
 </div>
   <footer></footer>
 
@@ -14,16 +14,17 @@
 
 <style>
 
-@import '/styles/style.css';
+@import 'styles/css/style.css';
 </style>
 
 <script>
 
 import home from '@/components/home'
 import navLogo from '@/components/navLogo'
+import featured from '@/components/featured'
 
 export default {
   name: 'app',
-  components: { navLogo, home }
+  components: { navLogo, home, featured }
 }
 </script>
