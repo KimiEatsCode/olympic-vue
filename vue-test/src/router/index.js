@@ -9,13 +9,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: (home, navLogo)
-    },
-    {
-      path: '/home',
-      name: 'home2',
+      name: 'homepage',
       component: (home, navLogo)
     }
+
   ]
 })
