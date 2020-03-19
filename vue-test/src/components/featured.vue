@@ -2,15 +2,12 @@
 <div id="featured">
   <section class="promoVideo">
   <div class="row">
-
   <div class="card">
   <div class="card-body"></div>
 </div>
 <div class="card">
   <div class="card-body" v-for="feature of featured" :key="feature.id">
-  <h2> {{ feature['body'] | striphtml}} </h2>
-    <hr class="purpleRule ruleLeft"/>
-    <p>{{ feature.body | striphtml}}</p>
+  <h2> {{ feature['body'][0].value | striphtml}} </h2>
   </div>
 </div>
   </div>
@@ -20,6 +17,7 @@
 
 <script>
 import '../htmlTagsFilter.js'
+import '../JSONstringify'
 
 export default {
   name: 'featured',
