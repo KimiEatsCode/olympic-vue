@@ -13,8 +13,6 @@
 
 </div>
 
-
-
 <div class="header-gradient"></div>
 
  </header>

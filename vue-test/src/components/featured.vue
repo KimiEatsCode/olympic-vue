@@ -1,16 +1,20 @@
 <template>
 <div id="featured">
-  <section class="promoVideo">
-  <div class="row">
-  <div class="card">
-  <div class="card-body"></div>
-</div>
+  <section class="promoFeatured" >
+    <div class="row">
+      <h2 class="header">Olympic Talk
+       <hr class="purpleRule ruleLeft"/>
+       </h2>
+    </div>
+<div class="row">
+ <div class="col" v-for="feature of featured" :key="feature.id">
 <div class="card">
-  <div class="card-body" v-for="feature of featured" :key="feature.id">
+  <div class="card-body">
   <h2> {{ feature['body'][0].value | striphtml}} </h2>
   </div>
 </div>
   </div>
+</div>
    </section>
 </div>
 </template>
@@ -45,5 +49,6 @@ export default {
       )
     }
   }
+
 }
 </script>

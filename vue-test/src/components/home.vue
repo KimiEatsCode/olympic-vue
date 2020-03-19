@@ -1,6 +1,6 @@
 <template>
 <div id="home">
-  <section class="promoVideo container">
+  <section class="promoVideo">
   <div class="row">
 
   <div class="card">
@@ -9,8 +9,9 @@
 
 <div class="card">
   <div class="card-body" v-for="promo of promoText" :key="promo.id">
-  <h2> {{ promo.test | striphtml}} </h2>
+  <h2> {{ promo.test | striphtml}}
     <hr class="purpleRule ruleLeft"/>
+  </h2>
     <p>{{ promo.body | striphtml}}</p>
   </div>
 </div>
