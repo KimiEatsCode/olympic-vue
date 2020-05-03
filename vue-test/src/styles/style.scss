@@ -125,8 +125,10 @@ section {
         width: 905px;
     }
     h2.header {
+        font-family: 'Nexa Bold', 'Arial',sans-serif;
         font-weight: $bold-header;
         margin: 10px auto 10px;
+        font-size: 38px;
     }
 }
 
@@ -154,7 +156,7 @@ section {
     height: 350px;
     background-color: #fff;
     z-index: 1;
-    top: 62px;
+    top: 29px;
     margin-left: 350px;
 
 }
@@ -190,7 +192,7 @@ section {
 .purpleRule {
     border: 1.5px solid
     #6540EC;
-    width: 193px;
+    width: 233px;
     display: flex;
     &.ruleLeft {
         margin-left: 0px;

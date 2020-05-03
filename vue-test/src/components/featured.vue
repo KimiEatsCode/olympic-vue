@@ -10,7 +10,7 @@
  <div class="col" v-for="feature of featured" :key="feature.id">
 <div class="card">
   <div class="card-body">
-  <h2> {{ feature['body'][0].value | striphtml}} </h2>
+  <p> {{ feature['body'][0].value | striphtml}} </p>
   </div>
 </div>
   </div>

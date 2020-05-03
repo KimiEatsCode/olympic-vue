@@ -23,7 +23,6 @@ import home from '@/components/home'
 import navLogo from '@/components/navLogo'
 import featured from '@/components/featured'
 
-
 export default {
   name: 'app',
   components: { navLogo, home, featured }
